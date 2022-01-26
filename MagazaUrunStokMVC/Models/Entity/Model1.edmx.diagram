@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="af37972c7b6947ee8a06d0bec765bb70" Name="Diagram1">
+        <EntityTypeShape EntityType="DbMvcMagazaStokModel.tblkategori" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbMvcMagazaStokModel.tblmusteri" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbMvcMagazaStokModel.tblpersonel" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbMvcMagazaStokModel.tblsatislar" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbMvcMagazaStokModel.tblurunler" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="DbMvcMagazaStokModel.FK_tblurunler_tblkategori" ManuallyRouted="false" />
+        <AssociationConnector Association="DbMvcMagazaStokModel.FK_tblsatislar_tblmusteri" ManuallyRouted="false" />
+        <AssociationConnector Association="DbMvcMagazaStokModel.FK_tblsatislar_tblpersonel" ManuallyRouted="false" />
+        <AssociationConnector Association="DbMvcMagazaStokModel.FK_tblsatislar_tblurunler" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DbMvcMagazaStokModel.tbladmin" Width="1.5" PointX="8.375" PointY="4.375" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
